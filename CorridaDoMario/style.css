@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+body {
+  background-image: url(./imagens/backgroundMario.jpeg);
+  background-position: bottom;
+  background-repeat: repeat-x;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+}
+  
+header img {
+  background-color: white;
+  padding: 20px;
+}
+  
+.selectPlayer {
+  display: inline-block;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 40px;
+  margin-top: 20px;
+  color: white;
+  text-shadow: black 2px 2px 5px;
+}
+  
+button {
+  margin-top: 20px;
+  font-size: xx-large;
+  background-color: rgb(39, 164, 54);
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+  
+.car-section {
+  text-align: left;
+  position: absolute;
+  bottom: 124px;
+}
+ 
+.car-section div {
+  width: 150px;
+  height: 150px;
+  margin-top: 7px;
+  background-image: url(./imagens/selectPlayer.png);
+  background-size: cover;
+}
+  
+.alternative-car1 {
+  background-image: url(./imagens/yoshi.png);
+}
+  
+.alternative-car2 {
+  background-image: url(./imagens/peach.png);
+}
+  
+.alternative-car3 {
+  background-image: url(./imagens/mario.png);
+}
+  
+.alternative-car4 {
+  background-image: url(./imagens/luigi.png);
+}
+  
+.alternatives {
+  margin-top: 20px;
+}
+  
+.alternatives img {
+  opacity: 0.7;
+}
+  
+.alternatives img:hover {
+  opacity: 1;
+}
+  
+.selected {
+  border: 8px outset red;
+  background-color: rgba(255, 174, 0, 0.5);
+}
+  
+.small {
+  font-size: 20px;
+}
+  
+.small {
+  font-size: 1rem;
+}
+  
+.car {
+  transition: 0.5s linear all;
+}

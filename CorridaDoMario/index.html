@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Corrida</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <audio id="audioWinner" src="marioWinner.mp3"></audio>
+  <script src="scripts.js"></script>
+</head>
+<body>
+  <header>
+    <h1><img src="./imagens/corridaMaravilhosa.png" alt="Corrida maravilhosa"></h1>
+  </header>
+  
+  <div class="selectPlayer">
+    <p>SELECT YOUR PLAYER:</p>
+    <p class="small">Clique no carro, depois no personagem</p>
+  </div>
+
+  <section id="players" class="alternatives">
+    <img src="imagens/mario.png" alt="Mario">
+    <img src="imagens/luigi.png" alt="Luigi">
+    <img src="imagens/peach.png" alt="Peach">
+    <img src="imagens/yoshi.png" alt="Yoshi">
+  </section>
+  
+  <button id="start-race-btn">VAAAI!</button>
+  <button id="reset-race-btn">RESET</button>
+
+  <section class="car-section">
+    <div id="player1" class="car"></div>
+    <div id="player2" class="car"></div>
+  </section>
+</body>
+</html>
