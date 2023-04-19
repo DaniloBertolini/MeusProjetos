@@ -41,12 +41,12 @@ window.onload = () => {
 
         if(parseInt(player1.style.marginLeft) >= window.innerWidth) {
             alert('Player 1 Vencedor!!');
-            // audio.play();
+            audio.play();
             resetaTudo();
         }
         if(parseInt(player2.style.marginLeft) >= window.innerWidth) {
             alert('Player 2 Vencedor!!');
-            // audio.play();
+            audio.play();
             resetaTudo();
         }
     })
